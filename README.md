@@ -1,0 +1,2 @@
+# shootingstang
+Win API project
