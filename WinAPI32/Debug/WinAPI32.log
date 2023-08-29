@@ -1,0 +1,26 @@
+﻿  bird.cpp
+  BmpImg.cpp
+  BonusStat.cpp
+  boss.cpp
+  Explane.cpp
+  gagail.cpp
+  GameNode.cpp
+  Heal.cpp
+  ImageManager.cpp
+  KeyManager.cpp
+  Lazor.cpp
+  MainGame.cpp
+  Menu.cpp
+  monster.cpp
+  MonsterManager.cpp
+  Player.cpp
+D:\SSH\코딩\190711_API1주일프로젝트_슈팅스탕\WinAPI32\Player.cpp(204,50): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  PlayGame.cpp
+  RectA.cpp
+  seagull.cpp
+  SoundManager.cpp
+  Star.cpp
+  TimeManager.cpp
+  WinAPI32.cpp
+D:\SSH\코딩\190711_API1주일프로젝트_슈팅스탕\WinAPI32\WinAPI32.cpp(110,21): error C2446: '==': 'int'에서 'HWND'(으)로 변환되지 않았습니다.
+D:\SSH\코딩\190711_API1주일프로젝트_슈팅스탕\WinAPI32\WinAPI32.cpp(110,16): message : 정수 계열 형식에서 포인터 형식으로 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.

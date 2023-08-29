@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="MainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="GameNode.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="RectA.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonBase.h">
+      <Filter>FrameWork\SingletonManager</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>FrameWork\SingletonManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFunc.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Star.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>FrameWork\SingletonManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>FrameWork\SingletonManager\Img</Filter>
+    </ClInclude>
+    <ClInclude Include="BmpImg.h">
+      <Filter>FrameWork\SingletonManager\Img</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>FrameWork\SingletonManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>MainGame\Shoot</Filter>
+    </ClInclude>
+    <ClInclude Include="monster.h">
+      <Filter>MainGame\Shoot\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="bird.h">
+      <Filter>MainGame\Shoot\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterManager.h">
+      <Filter>MainGame\Shoot\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="gagail.h">
+      <Filter>MainGame\Shoot\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Heal.h">
+      <Filter>MainGame\Shoot\item</Filter>
+    </ClInclude>
+    <ClInclude Include="Lazor.h">
+      <Filter>MainGame\Shoot\item</Filter>
+    </ClInclude>
+    <ClInclude Include="seagull.h">
+      <Filter>MainGame\Shoot\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="BonusStat.h">
+      <Filter>MainGame\Shoot\item</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayGame.h">
+      <Filter>MainGame\Shoot</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>MainGame\Shoot</Filter>
+    </ClInclude>
+    <ClInclude Include="Explane.h">
+      <Filter>MainGame\Shoot</Filter>
+    </ClInclude>
+    <ClInclude Include="boss.h">
+      <Filter>MainGame\Shoot\monster</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinAPI32.cpp" />
+    <ClCompile Include="MainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="GameNode.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="RectA.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>FrameWork\SingletonManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Star.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>FrameWork\SingletonManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>FrameWork\SingletonManager\Img</Filter>
+    </ClCompile>
+    <ClCompile Include="BmpImg.cpp">
+      <Filter>FrameWork\SingletonManager\Img</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>FrameWork\SingletonManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>MainGame\Shoot</Filter>
+    </ClCompile>
+    <ClCompile Include="monster.cpp">
+      <Filter>MainGame\Shoot\monster</Filter>
+    </ClCompile>
+    <ClCompile Include="bird.cpp">
+      <Filter>MainGame\Shoot\monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterManager.cpp">
+      <Filter>MainGame\Shoot\monster</Filter>
+    </ClCompile>
+    <ClCompile Include="gagail.cpp">
+      <Filter>MainGame\Shoot\monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Heal.cpp">
+      <Filter>MainGame\Shoot\item</Filter>
+    </ClCompile>
+    <ClCompile Include="Lazor.cpp">
+      <Filter>MainGame\Shoot\item</Filter>
+    </ClCompile>
+    <ClCompile Include="seagull.cpp">
+      <Filter>MainGame\Shoot\monster</Filter>
+    </ClCompile>
+    <ClCompile Include="BonusStat.cpp">
+      <Filter>MainGame\Shoot\item</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayGame.cpp">
+      <Filter>MainGame\Shoot</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>MainGame\Shoot</Filter>
+    </ClCompile>
+    <ClCompile Include="Explane.cpp">
+      <Filter>MainGame\Shoot</Filter>
+    </ClCompile>
+    <ClCompile Include="boss.cpp">
+      <Filter>MainGame\Shoot\monster</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{48326688-7f99-4024-a732-738ce4e6d00f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{b7582999-b602-471c-b28d-afbe3abf8628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\SingletonManager">
+      <UniqueIdentifier>{d5e302bc-b92a-44b4-8b41-86fc29f32a97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\SingletonManager\Img">
+      <UniqueIdentifier>{5b4cdc13-18ad-4d8d-a117-21da4a18b667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Shoot">
+      <UniqueIdentifier>{3b48a516-7ed0-4667-805b-d0bab44ea5ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Shoot\monster">
+      <UniqueIdentifier>{1691b578-1309-434c-bd9b-e8eb591ea1b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Shoot\item">
+      <UniqueIdentifier>{f1ab47f7-5410-427f-bc58-57d442f46bd2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
